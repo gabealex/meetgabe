@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gabriel Alexander Ho</title>
+    
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+
+    <!-- Add ui-router library here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    
+    <!-- Custom code -->
+    <script src="js/app.js"></script>
+    <link href = "css/app.css" rel="stylesheet" type= "text/css"/>
+    
+  </head>
+  <body>
+    <div>
+      <header>
+        <!-- Create links to different sections -->
+          <h1>Gabriel Ho</h1>        
+          <!-- <a class="btn btn-default" ui-sref='home'>Home</a> -->
+          <a class="headericon" ui-sref='about'><span class="glyphicon glyphicon-user" title="About me"></span></a>
+          <!-- <a class="btn btn-default" ui-sref='content'>Projects</a> -->
+          <a class="headericon" ui-sref='content'><span class="glyphicon glyphicon-briefcase" title=" My projects"></span></a>
+          <!-- a class="btn btn-default" ui-sref='about'>Resume</a> -->
+          <a class="headericon" ui-sref="home"><span class="glyphicon glyphicon-blackboard" title="Work together"></span></a>
+  		</header>
+        
+      <div class="container">
+        <div id="starter">
+          <img id="forest" src="img/forest.png">
+        </div>
+        <div ui-view></div>
+      </div>
+
+      <footer>
+          <span>&copy; Gabriel Ho, 2015.</span>
+          <a href="mailto:hky.gab@gmail.com"><img class="logo" src="img/new48.png"></a>
+          <a href="https://www.facebook.com/gabrielalexanderho"><img class="logo" src="img/facebook29.png"></a>
+          <a href="https://www.linkedin.com/in/gabrielhoky"><img class="logo" src="img/linkedin24.png"></a>
+          <p>Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

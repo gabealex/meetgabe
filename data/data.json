@@ -1,0 +1,6 @@
+[{"name":"Dawg Coffee","description":"Integrating Bootstrap and CSS to create a mobile-first website","url":"http://students.washington.edu/gabalex/info343/dawg-coffee/index.html","img":"dawgcoffee.png"},
+{"name":"Spotify","description":"Leveraging the Spotify API to develop a website that introduces you to new songs","url":"http://students.washington.edu/gabalex/info343/spotify-template/index.html","img":"spotify.png"},
+{"name":"Shooting Mappings","description":"Leveraging Leaflet and using jQuery to map out crowd-sourced information to visualize crime data","url":"http://students.washington.edu/gabalex/info343/police-shooting/index.html","img":"police.png"},
+{"name":"Find Bacon","description":"Because let's face it, we all need to know how to close to Kevin Bacon someone is. Also starring: PHP","url":"http://students.washington.edu/gabalex/info343/Baconator/mymdb.php","img":"bacon.png"},
+{"name":"Fifteen","description":"A little game we all used to play. Powered by javascript.","url":"http://students.washington.edu/gabalex/info343/fifteen/fifteen.html","img":"fifteen.png"},
+{"name":"Ascii Animations","description":"Watch little ASCII animations come to life!","url":"http://students.washington.edu/gabalex/info343/AsciiViewer/ascii.html","img":"ascii.png"}]

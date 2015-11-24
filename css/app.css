@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+
+body {
+	font-family: 'Special Elite';
+	font-size: 16px;
+	font-weight: 300;
+	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/8c/4e/ca/8c4eca74ee99710ed929785543a41b81.jpg');
+	background-repeat: repeat;
+	color: Black;
+}
+
+header {
+	border-bottom:3px solid #e3e3e3;
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: #afb3c2;
+	margin-top:-20px;
+	background-color: #526229;
+}
+
+#head{
+	font-size: 36;
+}
+
+footer {
+	border-top:3px solid #e3e3e3;
+	width:100%;
+	padding:1em;
+	font-size: 10px;
+	position: relative;
+    bottom: 0;
+    background-color: #526229;
+}
+
+footer.clear {
+	clear:both;
+}
+
+.logo {
+	height:3em;
+	width: 3em;
+	border-radius: 5px;
+	float: right;
+	display: inline;
+	margin-right: 5px;
+}
+
+#profilepic {
+	height: 600px;
+	width: 400px;
+	border-radius: 10px;
+}
+
+#aboutme {
+	margin-bottom:107px;
+}
+
+.thumbnails {
+	height:240px;
+	width: 240px;
+	border: 4px solid black;
+	border-radius: 5px;
+}
+
+.headericon {
+	color: black;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#resume {
+	margin-bottom: 20px;
+	border: 5px solid black;
+	border-radius: 5px;
+}
+
+#forest {
+	margin:auto;
+	width: 100%;
+	padding-bottom: 120px;
+	padding-top: 40px;
+}
+
+#projects {
+	margin-bottom: 6px;
+}
+
